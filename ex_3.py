@@ -1,6 +1,6 @@
 km_por_dia = 19
-ano_2_digitos = 25
-gasto_diario = km_por_dia + ano_2_digitos
+ano_2_digitos = '25'
+gasto_diario = km_por_dia + int(ano_2_digitos)
 
 print(f'Total em uma semana: {km_por_dia * 7}')
 print(f'Diferença entre 100 reais e o gasto diário: {100 - gasto_diario}')
